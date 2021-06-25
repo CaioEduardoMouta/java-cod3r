@@ -1,0 +1,26 @@
+package fundamentos;
+
+public class Interferencia {
+
+	public static void main(String[] args) {
+		double a = 4.5;
+		System.out.println(a);
+		// valores com casas decimais conseguem receber inteiros
+		// não ao contrário
+		a = 12;
+		System.out.println(a);
+		
+		var b = 4.5;
+		System.out.println(b);
+		
+		var c = "Texto";
+		System.out.println(c);
+		
+		c = "Outro Texto";
+		System.out.println(c);
+		
+		double d;
+		d = 123.65;
+		System.out.println(d);
+	}
+}
